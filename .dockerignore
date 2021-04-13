@@ -34,7 +34,5 @@ yarn-error.log*
 .vercel
 
 # Docker
-dockerfile.prod
-dockerfile.dev
-
+.DockerFile.*
 

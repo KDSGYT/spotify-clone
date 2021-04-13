@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+    clone:
+        container_name: spotify-clone-container
+        build: "dockerfile.dev"
+        volumes:
+        -   .:/usr/src/app
+        - /usr/src/app/node_modules
+        image: spotifyclone:latest
+        ports: 
+        -   '5000:3000'
