@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React from 'react';
+import LoginButton from '../components/LoginButton/LoginButton';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -18,13 +19,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Login</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1>Somthing will go here</h1>
-        <h1>Data: {data}</h1>
+        <h2>{data}</h2>
+        <LoginButton />
       </main>
 
     </div>
