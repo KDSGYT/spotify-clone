@@ -24,7 +24,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h2>{data}</h2>
         <LoginButton />
       </main>
 
